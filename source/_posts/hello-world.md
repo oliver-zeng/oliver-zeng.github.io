@@ -35,4 +35,31 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
+```graphviz
+graph graphname {
+    a -- b -- c;
+    b -- d;
+}
+```
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+```mermaid
+graph LR;
+    subgraph A
+    subgraph A
+    subgraph A
+```
+
+```mermaid
+graph TD;
+    A;
+    B;
+    CD;
+```
 More info: [Deployment](https://hexo.io/docs/deployment.html)
