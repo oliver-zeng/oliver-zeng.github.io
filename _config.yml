@@ -86,9 +86,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
-graphviz:
-  enable: true
-
 deploy:
   type: git
   repository: https://github.com/oliver-zeng/oliver-zeng.github.io.git
